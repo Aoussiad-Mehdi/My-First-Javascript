@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--This container contains the title and 4 divs to paint the wifi logo-->
+    <div class="container">
+      <div class="content">
+        <button id="btn" onclick="clickme()">Remove me</button>
+      </div>
+
+      <div class="xd">
+        <p id="text"></p>
+      </div>
+
+      <div class="vid" id="click">
+         <video width="500px" height="400px" controls>
+           <source src="video.mp4" type="video/mp4">
+         </video>
+         <button onclick="fn()" class="button">Hide All</button>
+     </div>
+
+     <p id="hi"></p>
+    </div>
+    <!--The script tag for linking Javascript with html-->
+    <script src="index.js"></script>
+</body>
+</html>

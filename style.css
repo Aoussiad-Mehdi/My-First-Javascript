@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(31, 29, 29);
+    width: 100%;
+    min-height: 100vh;
+}
+/* flexbox to center the elements */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vid{
+    width: 60%;
+    height: 550px;
+    background-image: url(bg4.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding: 16px 35px;
+    cursor: pointer;
+    border: none;
+    background: crimson;
+    border-radius: 10px;
+    font-size: 19px;
+    color: white;
+}
